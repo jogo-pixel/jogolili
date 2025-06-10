@@ -1,0 +1,15 @@
+body {
+    background-color: #797272; /* fundo cinza */
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center; 
+    overflow: hidden;
+}
+
+canvas {
+    background-color: #5c5c5c;
+    display: block;
+    border: 5px solid rgb(63, 63, 63); /* borda branca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra para destaque (opcional) */
+}
